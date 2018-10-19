@@ -24,4 +24,5 @@ class SearchesController < ApplicationController
     @error = "There was a timeout. Please try again."
   end
     render 'search'
+  end
 end
